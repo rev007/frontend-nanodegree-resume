@@ -13,13 +13,13 @@ var bio = {
 							"Illustrator", "Photoshop", "Sketch", "Balsamiq Mockups",
 							 "Xcode", "Interface Design", "HTML5", "CSS3", "JavaScript"
 	],
-	"bioPic" : "images/fry.jpg"
-}
+	"biopic" : "images/fry.jpg"
+};
 
 bio.display = function() {
   var formattedName = HTMLheaderName.replace('%data%', bio.name);
   var formattedRole = HTMLheaderRole.replace('%data%', bio.role);
-  var formattedBioPic = HTMLbioPic.replace('%data%', bio.bioPic);
+  var formattedBioPic = HTMLbioPic.replace('%data%', bio.biopic);
   var formattedMobile = HTMLmobile.replace('%data%', bio.contacts.mobile);
   var formattedEmail = HTMLemail.replace('%data%', bio.contacts.email);
   var formattedGithub = HTMLgithub.replace('%data%', bio.contacts.github);
@@ -36,7 +36,11 @@ bio.display = function() {
   $('#topContacts').append(formattedTwitter);
   $('#topContacts').append(formattedLocation);
   $('#header').append(formattedWelcomeMsg);
+	$('#footerContacts').append(formattedMobile);
   $('#footerContacts').append(formattedEmail);
+	$('#footerContacts').append(formattedGithub);
+	$('#footerContacts').append(formattedTwitter);
+	$('#footerContacts').append(formattedLocation);
 
 };
 
@@ -81,7 +85,7 @@ var education = {
 			"url": "www.udacity.com"
 		}
 	]
-}
+};
 
 education.display = function() {
 
@@ -89,7 +93,7 @@ education.display = function() {
 		// create new div for each school
 		$('#education').append(HTMLschoolStart);
 
-		var formattedName = HTMLschoolName.replace('%data%', school.name);
+		var formattedName = HTMLschoolName.replace('#', school.url).replace('%data%', school.name);
 		var formattedDegree = HTMLschoolDegree.replace('%data%', school.degree);
 		var formattedDates = HTMLschoolDates.replace('%data%', school.dates);
 		var formattedLocation = HTMLschoolLocation.replace('%data%', school.location);
@@ -105,7 +109,7 @@ education.display = function() {
 				majorsList += ', ' + major;
 			} else {
 				majorsList = major;
-			};
+			}
 		});
 		var formattedMajor = HTMLschoolMajor.replace('%data%', majorsList);
 		$('.education-entry:last').append(formattedMajor);
@@ -121,7 +125,11 @@ education.display = function() {
 		var formattedTitle = HTMLonlineTitle.replace('%data%', course.title);
 		var formattedSchool = HTMLonlineSchool.replace('%data%', course.school);
 		var formattedDates = HTMLonlineDates.replace('%data%', course.dates);
-		var formattedURL = HTMLonlineURL.replace('%data%', course.url);
+
+		// make the web address clickable but viewed as a www address
+		var str = course.url;
+		str = str.replace("www.", "http://");
+		var formattedURL = HTMLonlineURL.replace('#', str).replace('%data%', course.url);
 
 		$('.education-entry:last').append(formattedTitle + formattedSchool);
 		$('.education-entry:last').append(formattedDates);
@@ -161,7 +169,7 @@ var work = {
 			"description": "Reduced dropped calls, enhanced call quality, and collaborated across teams to improve National Quality Index scores by 15%. Created drive-testing databases for entire New England market."
 		}
 	]
-}
+};
 
 work.display = function() {
 
@@ -203,7 +211,7 @@ var projects = {
 			'images': ['images/197x148.gif', 'images/197x148.gif']
 		}
 	]
-}
+};
 
 // encapsulate a method to an existing object literal
 projects.display = function() {
@@ -233,7 +241,7 @@ projects.display = function() {
 				var formattedImage = HTMLprojectImage.replace('%data%', image);
 				$('.project-entry:last').append(formattedImage);
 			});
-		};
+		}
 
 	});
 

@@ -89,7 +89,7 @@ $(document).click(function(loc) {
   var x = loc.pageX;
   var y = loc.pageY;
 
-  logClicks(X, Y);
+  logClicks(x, y);
 });
 
 
@@ -137,7 +137,7 @@ function initializeMap() {
     // as described in the Udacity FEND Style Guide:
     // https://udacity.github.io/frontend-nanodegree-styleguide/javascript.html#for-in-loop
     education.schools.forEach(function(school){
-      locations.push(school.location); 
+      locations.push(school.location);
     });
 
     // iterates through work locations and appends each location to
