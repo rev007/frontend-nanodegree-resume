@@ -256,4 +256,4 @@ education.display();
 $('#main').append(internationalizeButton);
 
 // add the map
-$('#mapDiv').append(googleMap);
+// $('#mapDiv').append(googleMap);
