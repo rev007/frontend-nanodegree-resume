@@ -1,19 +1,19 @@
 var bio = {
 	"name": "Darryn Goldsmith",
-	"role": "Web Developer",
+	"role": "UX Designer & Web Developer",
 	"contacts": {
-		"mobile": "617-839-6752",
+		"mobile": "978-238-9647",
 		"email": "inventive321@gmail.com",
 		"github": "rev007",
 		"twitter": "@WaltDoubler",
 		"location": "Clinton, MA"
 	},
-	"welcomeMessage": "Hi, I’m Darryn Goldsmith! When I'm not designing things, I enjoy reading and drinking good coffee.",
+	"welcomeMessage": "Hi. I'm Darryn! When I'm not designing things I enjoy reading, painting and contributing to Jason Ogle's User Defenders podcast.",
 	"skills": [
 							"Illustrator", "Photoshop", "Sketch", "Balsamiq Mockups",
 							 "Xcode", "Interface Design", "HTML5", "CSS3", "JavaScript"
 	],
-	"biopic" : "images/fry.jpg"
+	"biopic" : "images/darryn.jpg"
 };
 
 bio.display = function() {
@@ -199,16 +199,16 @@ work.display = function() {
 var projects = {
 	'projects': [
 		{
-			'title': 'project a',
-			'dates': 'timeframe',
-			'description': 'about',
-			'images': ['images/197x148.gif', 'images/197x148.gif']
+			'title': 'Mobile App Design',
+			'dates': 'March 2013 - Present',
+			'description': 'Football Squares The Game is an MVP app that was designed and developed for the iPad. The app allows players to reposition their squares during the big game if trivia questions are answered correctly.',
+			'images': ['images/party.png', 'images/trivia.png']
 		},
 		{
-			'title': 'project b',
-			'dates': 'timeframe',
-			'description': 'about',
-			'images': ['images/197x148.gif', 'images/197x148.gif']
+			'title': 'Web Design',
+			'dates': 'February 2016 - Present',
+			'description': 'This is a redesign of the Northboro Canine Rehab website. A before and after photo will be displayed soon.',
+			'images': ['images/before.png', 'images/soon.png']
 		}
 	]
 };
@@ -253,7 +253,7 @@ projects.display();
 education.display();
 
 // create a button to internationalize your name
-$('#main').append(internationalizeButton);
+// $('#main').append(internationalizeButton);
 
 // add the map
 // $('#mapDiv').append(googleMap);
