@@ -8,7 +8,7 @@ var bio = {
 		"twitter": "@WaltDoubler",
 		"location": "Clinton, MA"
 	},
-	"welcomeMessage": "Hi. I'm Darryn! When I'm not designing things I enjoy reading, painting and contributing to Jason Ogle's User Defenders podcast.",
+	"welcomeMessage": "Self-starting, curious and passionate UX Designer with experience in application/website design and development. Co-created highly interactive app published on App Store incorporating user experience and interface design skills. Solved design hurdles in a variety of roles while working a separate full time job in wireless communications. Fosters positive work cultures, shares with enthusiasm and thinks way outside of the box.",
 	"skills": [
 							"Illustrator", "Photoshop", "Sketch", "Balsamiq Mockups",
 							 "Xcode", "Interface Design", "HTML5", "CSS3", "JavaScript"
@@ -145,21 +145,21 @@ var work = {
 			"title": "UX Designer",
 			"location": "Clinton, MA",
 			"dates": "March 2013 - Present",
-			"description": "Designed interfaces, created prototypes, and conducted task driven user testing to make understanding end user requirements a constant priority. Managed interaction and visual designs for Football Squares The Game app."
+			"description": "Designed interfaces, created prototypes, and conducted task driven user testing to make understanding end user requirements a constant priority. Managed interaction and visual designs for Football Squares The Game app. Technologies: Xcode, Illustrator, Silverback, Balsamiq, Final Cut Pro"
 		},
 		{
 			"employer": "GreenVine",
 			"title": "App Developer",
 			"location": "Clinton, MA",
 			"dates": "March 2013 - Present",
-			"description": "Self-taught Objective-C and the MVC design pattern to publish Football Squares The Game app. Researched and implemented solutions for complex interactive animations within the Core Animation framework."
+			"description": "Self-taught Objective-C and the MVC design pattern to publish Football Squares The Game app. Researched and implemented solutions for complex interactive animations within the Core Animation framework. Technologies: Xcode, Objective-C, Core Animation, Logic Pro X"
 		},
 		{
 			"employer": "Independent",
 			"title": "Web Developer",
 			"location": "Clinton, MA",
 			"dates": "February 2016 - Present",
-			"description": "Self-taught HTML and CSS. Currently working on a responsive website for a small business and finishing an online certificate program."
+			"description": "Self-taught HTML and CSS. Currently working on a responsive website for a small business and finishing an online certificate program. Technologies: Illustrator, HTML, CSS, JavaScript, GIT, Grunt"
 		},
 		{
 			"employer": "metroPCS",
