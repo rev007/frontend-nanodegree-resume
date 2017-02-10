@@ -207,7 +207,7 @@ var projects = {
 		{
 			'title': 'Web Design',
 			'dates': 'February 2016 - Present',
-			'description': 'This is a before and after redesign of the Northboro Canine Rehab website.',
+			'description': 'This is a before and after redesign of the Northboro Canine Rehab website. Work on this site is still ongoing.',
 			'images': ['images/before.png', 'images/after.png']
 		}
 	]
