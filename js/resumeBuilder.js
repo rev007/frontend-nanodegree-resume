@@ -145,28 +145,28 @@ var work = {
 			"title": "UX Designer",
 			"location": "Clinton, MA",
 			"dates": "March 2013 - Present",
-			"description": "Designed interfaces, created prototypes, and conducted task driven user testing to make understanding end user requirements a constant priority. Managed interaction and visual designs for Football Squares The Game app. Technologies: Xcode, Illustrator, Silverback, Balsamiq, Final Cut Pro"
+			"description": "Designed interfaces, mockups and prototypes. Managed interaction and visual designs. Published app on Apple. Conducted user testing. Made user needs constant priority. Technologies: Xcode, Illustrator, Silverback, Balsamiq, Final Cut Pro"
 		},
 		{
 			"employer": "GreenVine",
 			"title": "App Developer",
 			"location": "Clinton, MA",
 			"dates": "March 2013 - Present",
-			"description": "Self-taught Objective-C and the MVC design pattern to publish Football Squares The Game app. Researched and implemented solutions for complex interactive animations within the Core Animation framework. Technologies: Xcode, Objective-C, Core Animation, Logic Pro X"
+			"description": "Self-taught Objective-C and researched best design animation practices. Published app on Apple. Implemented complex animations. Improved frame rates by 100% Technologies: Xcode, Objective-C, Core Animation, Logic Pro X"
 		},
 		{
 			"employer": "Independent",
 			"title": "Web Developer",
 			"location": "Clinton, MA",
 			"dates": "February 2016 - Present",
-			"description": "Self-taught HTML and CSS. Currently working on a responsive website for a small business and finishing an online certificate program. Technologies: Illustrator, HTML, CSS, JavaScript, GIT, Grunt"
+			"description": "Self-taught Web design. Working on websites for two small businesses. Fixing unprofitable mobile design. Refining visual design and content. Technologies: Illustrator, HTML, CSS, JavaScript, GIT, Grunt"
 		},
 		{
 			"employer": "metroPCS",
 			"title": "Radio Frequency Engineer",
 			"location": "Chelmsford, MA",
 			"dates": "July 2007 - August 2016",
-			"description": "Reduced dropped calls, enhanced call quality, and collaborated across teams to improve National Quality Index scores by 15%. Created drive-testing databases for entire New England market."
+			"description": "Collaborated across teams within startup culture to achieve fastest build of Boston market in telecom history. Improved Quality Index by 15% Cut rehome project by two weeks."
 		}
 	]
 };
