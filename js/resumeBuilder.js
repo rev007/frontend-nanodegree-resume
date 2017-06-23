@@ -144,14 +144,14 @@ var work = {
 			"employer": "GreenVine",
 			"title": "UX Designer",
 			"location": "Clinton, MA",
-			"dates": "March 2013 - Present",
+			"dates": "March 2013 - August 2016",
 			"description": "Designed interfaces, mockups and prototypes. Managed interaction and visual designs. Published app on Apple. Conducted user testing. Made user needs constant priority. Technologies: Xcode, Illustrator, Silverback, Balsamiq, Final Cut Pro"
 		},
 		{
 			"employer": "GreenVine",
 			"title": "App Developer",
 			"location": "Clinton, MA",
-			"dates": "March 2013 - Present",
+			"dates": "March 2013 - August 2016",
 			"description": "Self-taught Objective-C and researched best design animation practices. Published app on Apple. Implemented complex animations. Improved frame rates by 100% Technologies: Xcode, Objective-C, Core Animation, Logic Pro X"
 		},
 		{
