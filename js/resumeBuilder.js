@@ -72,7 +72,7 @@ var education = {
 			"dates": "2014",
 			"url": "www.agitraining.com"
 		},
-				{
+		{
 			"title": "Wireframes to Responsive Design",
 			"school": "Treehouse",
 			"dates": "2013",
