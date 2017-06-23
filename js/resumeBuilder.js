@@ -1,6 +1,6 @@
 var bio = {
 	"name": "Darryn Goldsmith",
-	"role": "UX Designer & Web Developer",
+	"role": "UX Designer / Web Developer",
 	"contacts": {
 		"mobile": "978-238-9647",
 		"email": "inventive321@gmail.com",
@@ -8,7 +8,7 @@ var bio = {
 		"twitter": "@WaltDoubler",
 		"location": "Clinton, MA"
 	},
-	"welcomeMessage": "Self-starting, curious and passionate UX Designer with experience in application/website design and development. Co-created highly interactive app published on App Store incorporating user experience and interface design skills. Solved design hurdles in a variety of roles while working a separate full time job in wireless communications. Fosters positive work cultures, shares with enthusiasm and thinks way outside of the box.",
+	"welcomeMessage": "Self-starting, curious and passionate UX Designer with experience in application/website design and development. Co-created highly interactive app published on App Store incorporating user experience and interface design skills. Solved design hurdles in a variety of roles while working a separate full time job in wireless communications. Fosters positive work cultures, shares with enthusiasm and likes to think way outside of the box.",
 	"skills": [
 							"Illustrator", "Photoshop", "Sketch", "Balsamiq Mockups",
 							 "Xcode", "Interface Design", "HTML5", "CSS3", "JavaScript"
@@ -81,7 +81,7 @@ var education = {
 		{
 			"title": "Front-End Developer Nanodegree",
 			"school": "Udacity",
-			"dates": "2016",
+			"dates": "2017",
 			"url": "www.udacity.com"
 		}
 	]
@@ -201,7 +201,7 @@ var projects = {
 		{
 			'title': 'Mobile App Design',
 			'dates': 'March 2013 - Present',
-			'description': 'Football Squares The Game is an MVP app that was designed and developed for the iPad. The app allows players to reposition their squares during the big game if trivia questions are answered correctly.',
+			'description': 'Football Squares The Game is an app that was designed and developed for the iPad. The app allows players to reposition their squares during the big game if trivia questions are answered correctly.',
 			'images': ['images/party.png', 'images/trivia.png']
 		},
 		{
