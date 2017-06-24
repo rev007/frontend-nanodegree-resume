@@ -159,7 +159,7 @@ var work = {
 			"title": "Web Developer",
 			"location": "Clinton, MA",
 			"dates": "February 2016 - Present",
-			"description": "Self-taught Web design. Working on websites for two small businesses. Fixing unprofitable mobile design. Refining visual design and content. Technologies: Illustrator, HTML, CSS, JavaScript, GIT, Grunt"
+			"description": "Self-taught Web design. Working on websites for two small businesses. Fixed unprofitable mobile design. Refined visual design and content. Technologies: Illustrator, HTML, CSS, JavaScript, GIT, Grunt"
 		},
 		{
 			"employer": "metroPCS",
