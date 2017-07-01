@@ -11,7 +11,9 @@ var bio = {
 	"welcomeMessage": "Self-starting, curious and passionate UX Designer with experience in application/website design and development. Co-created highly interactive app published on App Store incorporating user experience and interface design skills. Solved design hurdles in a variety of roles while working a separate full time job in wireless communications. Fosters positive work cultures, shares with enthusiasm and likes to think way outside of the box.",
 	"skills": [
 							"Illustrator", "Photoshop", "Sketch", "Balsamiq Mockups",
-							 "Xcode", "Interface Design", "HTML5", "CSS3", "JavaScript"
+							 "Wireframes", "Typography", "Xcode", "Interface Design",
+								"HTML5", "CSS3", "JavaScript", "Objective-C",
+									"Object-Oriented Programming", "GIT", "Grunt", "Node.js"
 	],
 	"biopic" : "images/darryn.jpg"
 };
@@ -66,23 +68,23 @@ var education = {
 		}
 	],
 	"onlineCourses": [
+        {
+            "title": "Front-End Developer Nanodegree",
+            "school": "Udacity",
+            "dates": "2017",
+            "url": "https://profiles.udacity.com/p/8804555838"
+        },
 		{
 			"title": "Introduction to UX Design",
 			"school": "American Graphics Institute",
 			"dates": "2014",
-			"url": "www.agitraining.com"
+			"url": "https://www.agitraining.com/ux/classes"
 		},
 		{
-			"title": "Wireframes to Responsive Design",
-			"school": "Treehouse",
+			"title": "Design & Development Achievements",
+            "school": "Treehouse",
 			"dates": "2013",
-			"url": "www.teamtreehouse.com"
-		},
-		{
-			"title": "Front-End Developer Nanodegree",
-			"school": "Udacity",
-			"dates": "2017",
-			"url": "www.udacity.com"
+			"url": "https://teamtreehouse.com/darryngoldsmith"
 		}
 	]
 };
@@ -122,24 +124,33 @@ education.display = function() {
 		// create new div for each online course
 		$('#education').append(HTMLschoolStart);
 
-		var formattedTitle = HTMLonlineTitle.replace('%data%', course.title);
-		var formattedSchool = HTMLonlineSchool.replace('%data%', course.school);
+		// var formattedTitle = HTMLonlineTitle.replace('%data%', course.title);
+        var formattedTitle = HTMLonlineTitle.replace('#', course.url).replace('%data%', course.title);
+        var formattedSchool = HTMLonlineSchool.replace('%data%', course.school);
 		var formattedDates = HTMLonlineDates.replace('%data%', course.dates);
 
 		// make the web address clickable but viewed as a www address
-		var str = course.url;
-		str = str.replace("www.", "http://");
-		var formattedURL = HTMLonlineURL.replace('#', str).replace('%data%', course.url);
+		// var str = course.url;
+		// str = str.replace("www.", "http://");
+		// var formattedURL = HTMLonlineURL.replace('#', str).replace('%data%', course.url);
 
 		$('.education-entry:last').append(formattedTitle + formattedSchool);
-		$('.education-entry:last').append(formattedDates);
-		$('.education-entry:last').append(formattedURL);
+        $('.education-entry:last').append(formattedDates);
+		// $('.education-entry:last').append(formattedURL);
+		$('.education-entry:last').append("<br>");
 	});
 
 };
 
 var work = {
 	"jobs": [
+        {
+            "employer": "Independent",
+            "title": "Web Developer",
+            "location": "Clinton, MA",
+            "dates": "February 2016 - Present",
+            "description": "Self-taught Web design. Working on websites for two small businesses. Fixed unprofitable mobile design. Refined visual design and content. Technologies: Illustrator, HTML, CSS, JavaScript, GIT, Grunt"
+        },
 		{
 			"employer": "GreenVine",
 			"title": "UX Designer",
@@ -152,21 +163,14 @@ var work = {
 			"title": "App Developer",
 			"location": "Clinton, MA",
 			"dates": "March 2013 - August 2016",
-			"description": "Self-taught Objective-C and researched best design animation practices. Published app on Apple. Implemented complex animations. Improved frame rates by 100% Technologies: Xcode, Objective-C, Core Animation, Logic Pro X"
-		},
-		{
-			"employer": "Independent",
-			"title": "Web Developer",
-			"location": "Clinton, MA",
-			"dates": "February 2016 - Present",
-			"description": "Self-taught Web design. Working on websites for two small businesses. Fixed unprofitable mobile design. Refined visual design and content. Technologies: Illustrator, HTML, CSS, JavaScript, GIT, Grunt"
+			"description": "Self-taught Objective-C and researched best design animation practices. Published app on Apple. Implemented complex animations. Improved frame rates by 100%. Technologies: Xcode, Objective-C, Core Animation, Logic Pro X"
 		},
 		{
 			"employer": "metroPCS",
 			"title": "Radio Frequency Engineer",
 			"location": "Chelmsford, MA",
 			"dates": "July 2007 - August 2016",
-			"description": "Collaborated across teams within startup culture to achieve fastest build of Boston market in telecom history. Improved Quality Index by 15% Cut rehome project by two weeks."
+			"description": "Collaborated across teams within startup culture to achieve fastest build of Boston market in telecom history. Improved Quality Index by 15%. Cut rehome project by two weeks."
 		}
 	]
 };
