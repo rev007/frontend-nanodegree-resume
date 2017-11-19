@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body,
 div,
 ul,
@@ -34,7 +38,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999;
+  color: white;
   line-height: 29px;
   padding: 10px;
 }
@@ -42,7 +46,7 @@ h2 {
 h3 {
   font-style: italic;
   font-size: 20px;
-  color: #000;
+  color: white;
   line-height: 22px;
 }
 
@@ -61,11 +65,18 @@ h5 {
 
 }
 
+hr {
+  border-color: white;
+}
+
+em {
+  color: #6d6e71;
+}
 
 .date-text {
   font-style: italic;
   font-size: 14px;
-  color: #999;
+  color: white;
   line-height: 16px;
   float: left;
 }
@@ -73,7 +84,7 @@ h5 {
 .location-text {
   font-style: italic;
   font-size: 14px;
-  color: #999;
+  color: white;
   line-height: 16px;
   float: right;
 
@@ -81,12 +92,12 @@ h5 {
 
 p {
   font-size: 14px;
-  color: #333;
+  color: #6d6e71;
   line-height: 21px;
 }
 
 a {
-  color: #1199c3;
+  color: #6d6e71;
   text-decoration: none;
   margin-top: 10px;
   display: block;
@@ -106,10 +117,10 @@ a {
 
 .connect {
   color: #f0de51;
-  background-color: #8eb1c7;
+  background-color: #65a1a7;
 }
 
-.orange-text {
+.starship-text {
   color: #f0de51;
 }
 
@@ -118,20 +129,19 @@ a {
   color: #fff;
 }
 
-.gray {
-  background-color: #f3f3f3;
+.opal {
+  background-color: #acc9cb;
   padding-bottom: 10px;
   clear: both;
 }
 
-.dark-gray {
-  /*background-color: #4a4a4a;*/
-  background-color: #5c9dc7;
+.breaker-bay {
+  background-color: #65a1a7;
 }
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #5c9dc7;
+  background-color: #65a1a7;
 }
 
 .flex-box {
@@ -171,6 +181,7 @@ img {
 
 span {
   padding: 5px;
+  color: #f0de51;
 }
 
 #lets-connect {
@@ -181,7 +192,7 @@ span {
 
 @media only screen and (max-width: 1024px) {
   #lets-connect {
-    margin-top: 5%;
+    /*margin-top: 5%;*/
   }
 }
 
@@ -193,7 +204,7 @@ span {
 
 @media only screen and (max-width: 750px) {
   #lets-connect {
-    margin-top: 10%;
+    /*margin-top: 10%;*/
   }
   .biopic {
     width: 150px;
