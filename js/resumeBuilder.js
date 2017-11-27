@@ -2,18 +2,16 @@ var bio = {
 	"name": "Darryn Goldsmith",
 	"role": "UX Designer / Web Developer",
 	"contacts": {
-		"mobile": "978-238-9647",
+		"location": "Clinton, MA",
+		"mobile": "(617) 839-6752",
 		"email": "inventive321@gmail.com",
 		"github": "rev007",
-		"twitter": "@WaltDoubler",
-		"location": "Clinton, MA"
+		"website": "DarrynGoldsmith.com"
 	},
-	"welcomeMessage": "Self-starting, curious and passionate UX Designer with experience in application/website design and development. Co-created highly interactive app published on App Store incorporating user experience and interface design skills. Solved design hurdles in a variety of roles while working a separate full time job in wireless communications. Fosters positive work cultures, shares with enthusiasm and likes to think way outside of the box.",
+	"welcomeMessage": "UX Developer with diverse background in user experience, programming and expertise gained from 15+ years of research and problem-solving. Advocates for web interaction design best practices, with a focus on consistency and usability. Adept at developing interactive front-end designs and maintainable, scalable, responsive, and cross-browser code.",
 	"skills": [
-							"Illustrator", "Photoshop", "Sketch", "Balsamiq Mockups",
-							 "Wireframes", "Typography", "Xcode", "Interface Design",
-								"HTML5", "CSS3", "JavaScript", "Objective-C",
-									"Object-Oriented Programming", "GIT", "Grunt", "Node.js"
+							"User Research", "HTML5", "CSS3", "JavaScript",
+							 "Git", "Illustrator", "Wireframes", "Typography"
 	],
 	"biopic" : "images/darryn.jpg"
 };
@@ -25,23 +23,24 @@ bio.display = function() {
   var formattedMobile = HTMLmobile.replace('%data%', bio.contacts.mobile);
   var formattedEmail = HTMLemail.replace('%data%', bio.contacts.email);
   var formattedGithub = HTMLgithub.replace('%data%', bio.contacts.github);
-  var formattedTwitter = HTMLtwitter.replace('%data%', bio.contacts.twitter);
+  var formattedWebsite = HTMLwebsite.replace('%data%', bio.contacts.website);
   var formattedLocation = HTMLlocation.replace('%data%', bio.contacts.location);
   var formattedWelcomeMsg = HTMLwelcomeMsg.replace('%data%', bio.welcomeMessage);
 
   $('#header').prepend(formattedRole);
   $('#header').prepend(formattedName);
   $('#header').append(formattedBioPic);
-  $('#topContacts').append(formattedMobile);
-  $('#topContacts').append(formattedEmail);
-  $('#topContacts').append(formattedGithub);
-  $('#topContacts').append(formattedTwitter);
-  $('#topContacts').append(formattedLocation);
+	$('#topContacts').append(formattedLocation);
+	$('#topContacts').append(formattedMobile);
+	$('#topContacts').append(formattedEmail);
+	$('#topContacts').append(formattedGithub);
+	$('#topContacts').append(formattedWebsite);
+
   $('#header').append(formattedWelcomeMsg);
 	$('#footerContacts').append(formattedMobile);
   $('#footerContacts').append(formattedEmail);
 	$('#footerContacts').append(formattedGithub);
-	$('#footerContacts').append(formattedTwitter);
+	$('#footerContacts').append(formattedWebsite);
 	$('#footerContacts').append(formattedLocation);
 
 };
