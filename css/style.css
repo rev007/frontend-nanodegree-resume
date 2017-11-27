@@ -15,7 +15,7 @@ h5,
 h6 {
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  /*font-family: "Roboto", sans-serif;*/
 }
 
 .clear-fix {
@@ -30,8 +30,9 @@ h6 {
 
 h1 {
   font-size: 40px;
-  color: #f0de51;
-  line-height: 48px;
+  /*color: #f0de51;*/
+  color: #65a1a7;
+  /*line-height: 48px;*/
   display: inline;
 }
 
@@ -66,7 +67,10 @@ h5 {
 }
 
 hr {
-  border-color: white;
+  /*border-color: white;*/
+  height: 2px;
+  border: 0 none;
+  background-color: #65a1a7;
 }
 
 em {
@@ -141,7 +145,7 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #65a1a7;
+  /*background-color: #65a1a7;*/
 }
 
 .flex-box {
@@ -182,6 +186,12 @@ img {
 span {
   padding: 5px;
   color: #f0de51;
+}
+
+#title {
+  font-size: 19px;
+  /*color: #f0de51;*/
+  color: #65a1a7;
 }
 
 #lets-connect {
