@@ -8,10 +8,10 @@ var bio = {
 		"github": "rev007",
 		"website": "DarrynGoldsmith.com"
 	},
-	"welcomeMessage": "UX Developer with diverse background in user experience, programming and expertise gained from 15+ years of research and problem-solving. Advocates for web interaction design best practices, with a focus on consistency and usability. Adept at developing interactive front-end designs and maintainable, scalable, responsive, and cross-browser code.",
+	"welcomeMessage": "Passionate UX Designer with a diverse background in user experience, web development and expertise gained from 15+ years of research and problem-solving. Adept at user research and inter- action design for a variety of services and platforms. Advocates for web interaction design best practices, with a focus on consistency and usability.",
 	"skills": [
-							"User Research", "HTML5", "CSS3", "JavaScript",
-							 "Git", "Illustrator", "Wireframes", "Typography"
+							 "User Experience Design", "Usability Testing", "Design Sprints", "Adobe CC",
+								"Responsive Design", "HTML5", "CSS3", "Writing & Communication"
 	],
 	"biopic" : "images/darryn.jpg"
 };
@@ -59,22 +59,22 @@ var education = {
 	"schools": [
 		{
 			"name": "University of New Hampshire",
-			"location": "Durham, NH",
+			"location": "",
 			"degree": "Bachelors of Science",
 			"majors": ["Electrical Engineering"],
-			"dates": "2000",
+			"dates": "Durham, NH",
 			"url": "http://unh.edu"
 		}
 	],
 	"onlineCourses": [
-        {
-            "title": "Front-End Developer Nanodegree",
-            "school": "Udacity",
-            "dates": "2017",
-            "url": "https://profiles.udacity.com/p/8804555838"
-        },
+    {
+        "title": "Design Sprint Foundations Nanodegree",
+        "school": "Udacity",
+        "dates": "2018",
+        "url": "https://www.udacity.com/course/design-sprint-foundations--nd201"
+    },
 		{
-			"title": "Introduction to UX Design",
+			"title": "UX Design",
 			"school": "American Graphics Institute",
 			"dates": "2014",
 			"url": "https://www.agitraining.com/ux/classes"
@@ -82,7 +82,7 @@ var education = {
 		{
 			"title": "Design & Development Achievements",
             "school": "Treehouse",
-			"dates": "2013",
+			"dates": "2013 to Present",
 			"url": "https://teamtreehouse.com/darryngoldsmith"
 		}
 	]
