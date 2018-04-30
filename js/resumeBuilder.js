@@ -143,33 +143,19 @@ education.display = function() {
 
 var work = {
 	"jobs": [
-        {
-            "employer": "Independent",
-            "title": "Web Developer",
-            "location": "Clinton, MA",
-            "dates": "February 2016 - Present",
-            "description": "Self-taught Web design. Working on websites for two small businesses. Fixed unprofitable mobile design. Refined visual design and content. Technologies: Illustrator, HTML, CSS, JavaScript, GIT, Grunt"
-        },
 		{
-			"employer": "GreenVine",
-			"title": "UX Designer",
-			"location": "Clinton, MA",
-			"dates": "March 2013 - August 2016",
-			"description": "Designed interfaces, mockups and prototypes. Managed interaction and visual designs. Published app on Apple. Conducted user testing. Made user needs constant priority. Technologies: Xcode, Illustrator, Silverback, Balsamiq, Final Cut Pro"
-		},
-		{
-			"employer": "GreenVine",
-			"title": "App Developer",
-			"location": "Clinton, MA",
-			"dates": "March 2013 - August 2016",
-			"description": "Self-taught Objective-C and researched best design animation practices. Published app on Apple. Implemented complex animations. Improved frame rates by 100%. Technologies: Xcode, Objective-C, Core Animation, Logic Pro X"
+				"employer": "Freelance",
+				"title": "UX Designer",
+				"location": "Clinton, MA",
+				"dates": "February 2013 - Present",
+				"description": "Directed product design and defined usability goals; designed interfaces, mockups and prototypes for various projects. Performed card sorting and usability testing with users. Developed website for a small business with increased conversion rate of 5% and increased sessions by 70%. Created more intuitive site navigation reducing unnecessary clicks by 50%. Improved information architecture and revised content focused on call-to-actions. Updated and streamlined existing code and assets to double site performance."
 		},
 		{
 			"employer": "metroPCS",
 			"title": "Radio Frequency Engineer",
 			"location": "Chelmsford, MA",
 			"dates": "July 2007 - August 2016",
-			"description": "Collaborated across teams within startup culture to achieve fastest build of Boston market in telecom history. Improved Quality Index by 15%. Cut rehome project by two weeks."
+			"description": "Strategized, designed, and optimized cellular network for New England states. Consulted on solutions for telecommunication within startup atmosphere. Key contributor to fastest build of Boston market in telecom history. Improved Quality Index by 15% and cut rehome project by two weeks; saved thousands of capacity dollars."
 		}
 	]
 };
