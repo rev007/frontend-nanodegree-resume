@@ -1,6 +1,6 @@
 var bio = {
 	"name": "Darryn Goldsmith",
-	"role": "UX Designer / Web Developer",
+	"role": "UX Designer",
 	"contacts": {
 		"location": "Clinton, MA",
 		"mobile": "(617) 839-6752",
