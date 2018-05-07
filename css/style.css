@@ -108,13 +108,15 @@ a {
   display: block;
 }
 
-.welcome-message {
+.welcome-message,
+.summary {
   /*font-style: italic;*/
   font-size: 18px;
   /*color: #f3f3f3;*/
   color: #939598;
   /*line-height: 28px;*/
   line-height: 1.45;
+  padding: 0;
 }
 
 #skills-h3 {

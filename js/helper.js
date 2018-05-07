@@ -22,6 +22,7 @@ var HTMLlocation = '<li class="flex-item"><span class="starship-text">location</
 
 var HTMLbioPic = '<img src="%data%" class="biopic">';
 var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';
+var HTMLsummary = '<span class="summary">%data%</span>';
 
 var HTMLskillsStart = '<h3 id="skills-h3">Skills at a Glance:</h3><ul id="skills" class="flex-box"></ul>';
 var HTMLskills = '<li class="flex-item"><span class="grey-text">%data%</span></li>';

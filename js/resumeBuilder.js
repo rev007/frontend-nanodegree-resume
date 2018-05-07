@@ -8,7 +8,8 @@ var bio = {
 		"github": "rev007",
 		"website": "DarrynGoldsmith.com"
 	},
-	"welcomeMessage": "Passionate UX Designer with a diverse background in user experience, web development and expertise gained from 15+ years of research and problem-solving. Adept at user research and inter- action design for a variety of services and platforms. Advocates for web interaction design best practices, with a focus on consistency and usability.",
+	"welcomeMessage": "This online resume is a fun side project using jQuery and JSON to dynamically modify the DOM. I use it to illustrate my understanding of how different front-end technologies can present unique challenges. I'll be done when the page looks very similar to the PDF download.",
+	"summary": "Passionate UX Designer with a diverse background in user experience, web development and expertise gained from 15+ years of research and problem-solving. Adept at user research and interaction design for a variety of services and platforms. Advocates for web interaction design best practices, with a focus on consistency and usability.",
 	"skills": [
 							 "User Experience Design", "Usability Testing", "Design Sprints", "Adobe CC",
 								"Responsive Design", "HTML5", "CSS3", "Writing & Communication"
@@ -26,6 +27,7 @@ bio.display = function() {
   var formattedWebsite = HTMLwebsite.replace('%data%', bio.contacts.website);
   var formattedLocation = HTMLlocation.replace('%data%', bio.contacts.location);
   var formattedWelcomeMsg = HTMLwelcomeMsg.replace('%data%', bio.welcomeMessage);
+	var formattedSummary = HTMLsummary.replace('%data%', bio.summary);
 
   $('#header').prepend(formattedRole);
   $('#header').prepend(formattedName);
@@ -37,6 +39,8 @@ bio.display = function() {
 	$('#topContacts').append(formattedWebsite);
 
   $('#header').append(formattedWelcomeMsg);
+	$('#header').append('<br>', '<br>');
+	$('#header').append(formattedSummary);
 	$('#footerContacts').append(formattedMobile);
   $('#footerContacts').append(formattedEmail);
 	$('#footerContacts').append(formattedGithub);
